@@ -1,0 +1,179 @@
+/* GENERAL */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(241, 238, 238);
+    
+}
+
+/* HEADER */
+
+#Header{
+    padding-top: 26px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 29px;
+    margin-right: 21px;
+}
+
+.header-left{
+    opacity: 0.8;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-evenly;
+    /* flex-basis: 25% 25% 25% 25%; */
+    border: 1px solid white;
+    height: 20px;
+    width: auto;
+    padding: 5px;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 1px 2px 2px rgb(177, 173, 173);
+
+}
+
+.time1,
+.time24,
+.time30,
+.time60{
+    background: rgb(241, 238, 238);
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.time1{
+    height: 15px;
+    width: 20px;
+    margin-right: 6px;
+    padding: 3px;
+    text-align: center;
+}
+
+.time24{
+    height: 15px;
+    width: 28px;
+    margin-right: 6px;
+    padding: 3px;
+    text-align: center;
+
+}
+
+.time30{
+    height: 15px;
+    width: 28px;
+    margin-right: 6px;
+    padding: 3px;
+    text-align: center;
+}
+
+.time60{
+    height: 15.5px;
+    width: 33px;
+    /* margin-right: 10px; */
+    padding: 3px;
+    text-align: center;
+    /* vertical-align: bottom; */
+    padding-top: 5px;
+    background: lightgray;
+
+}
+
+/* BAR-CHART */
+#bar-chart{
+    background: white;
+    padding-top: 35px;
+    width: 98%;
+    margin-left: 10px;
+    box-shadow: 3px 6px 20px gray;
+}
+
+.chart {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 200px;
+    padding: 20px;
+
+}
+  
+.bar {
+    flex: 1;
+    background-color: gold;
+    margin: 0 5px;
+    transition: height 0.3s;
+    border: 2px solid gold;
+    border-radius: 5px;
+}
+
+.bar-chart-head{
+    margin-left: 45px;
+    line-height: 0.7;
+    opacity: 0.8;
+    padding-bottom: 30px;
+}
+
+.Participants{
+    margin-left: 3px;
+    font-weight: 600;
+    opacity: 0.7;
+}
+
+.bar-chart-point{
+    line-height: 0.8;
+    height: 31px;
+    border: 1px solid white;
+    width: 85px;
+    padding: 1px 2px;
+    box-shadow: 1px 1.2px 3px gray;
+    border-radius: 3px;
+    font-size: 10px;
+    margin-left: 20px;
+    position: absolute;
+    top: 240px;
+    right: 15px;
+}
+
+.bar-chart-point span{
+    opacity: 0.6;
+}
+
+.current{
+    opacity: 0.4;
+    /* text-align: center; */
+    margin-left: 15px;
+}
+
+.werey{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.werey1{
+    margin-right: 5px;
+    margin-left: -2px;
+    width: 30px;
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 3px gray;
+    border-top-right-radius: 80% 20%;
+}
+
+.werey2{
+    margin-right: -1px;
+    width: 43px;
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 3px gray;
+    border-top-left-radius: 80% 20%;
+}
