@@ -478,66 +478,67 @@ h6{
 }
 
 .mami{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     border-radius: 1px solid rgb(246, 228, 138);
     border-radius: 2px;
     position: absolute;
     left: 74px;
-    padding-top: 2px;
+    padding-top: 3px;
 }
 
 .kanjo{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     border-radius: 1px solid rgb(246, 228, 138);
     border-radius: 2px;
     position: absolute;
     left: 74px;
-    padding-top: 2px;
+    padding-top: 3px;
 
 }
 
 .plug{
-    width: 25px;
-    height: 35px;
+    width: 20px;
+    height: 20px;
     border-radius: 1px solid rgb(246, 228, 138);
     border-radius: 2px;
     position: absolute;
     left: 74px;
-    padding-top: 2px;
+    padding-top: 3px;
 
 }
 
 .money{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     border-radius: 1px solid rgb(246, 228, 138);
     border-radius: 2px;
     position: absolute;
     left: 74px;
-    padding-top: 2px;
+    padding-top: 3px;
 }
 
 .career{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     border-radius: 1px solid rgb(246, 228, 138);
     border-radius: 2px;
     position: absolute;
     left: 74px;
-    padding-top: 2px;
+    padding-top: 3px;
 }
 
 .software{
-    padding-top: 2px;
-    width: 25px;
-    height: 25px;
+    padding-top: 3px;
+    width: 20px;
+    height: 20px;
     border-radius: 1px solid rgb(246, 228, 138);
     border-radius: 2px;
     position: absolute;
     left: 74px;
 }
+
 
 /* RESPONSIVENESS */
 @media screen and (max-width: 600px) and (min-width: 10px) {
