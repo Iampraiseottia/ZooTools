@@ -96,6 +96,8 @@ body{
     padding-top: 35px;
     width: 98%;
     margin-left: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
     box-shadow: 3px 6px 20px gray;
 }
 
@@ -141,7 +143,7 @@ body{
     font-size: 10px;
     margin-left: 20px;
     position: absolute;
-    top: 240px;
+    top: 190px;
     right: 15px;
 }
 
@@ -176,4 +178,354 @@ body{
     border: 1px solid lightgray;
     box-shadow: 1px 1px 3px gray;
     border-top-left-radius: 80% 20%;
+}
+
+/* ZOOTOOLS */
+#zootool{
+    height: auto;
+    width: 913px;
+    background: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-top: 60px;
+    padding: 25px 35px;
+    box-shadow: 2px 8px 10px lightgray;
+
+}
+
+#zootool p{
+    line-height: 1.5;
+    font-weight: 550;
+    opacity: 0.6;
+}
+
+.zootool1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.zootool1-btn{
+    padding-left: 6px;
+    padding-right: 6px;
+    font-weight: 550;
+    background: snow;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px lightgray;
+}
+
+.zootool-img{
+    height: 29px;
+    width: 28px;
+    border-radius: 8px;
+}
+
+.prinzo{
+    padding: 8px 10px;
+    /* background: white; */
+    display: flex;
+
+}
+
+.zootool2-div{
+    height: 84px;
+    width: 420px;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+    box-shadow: 1px 2px 9px lightgray;
+}
+
+h5{
+    /* font-size: 13px; */
+    margin-left: 13px;
+    padding-top: 8px;
+}
+
+h5 span{
+    opacity: 0.5;
+}
+
+.soso{
+    background: lightgray;
+}
+
+h6{
+    font-size: 9px;
+    margin-left: 10px;
+    padding: 10px 30px 10px 4px;
+}
+
+.zootool2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.joy{
+    margin-right: 80px;
+}
+
+.soso h6 span{
+    cursor: pointer;
+    opacity: 0.8;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.soso h6 span:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+/* TABLE  AND TRAFFIC*/
+#board,
+#traffic{
+    height: auto;
+    padding: 15px 21px;
+    width: 365px;
+    background: white;
+    border: 1px solid white;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    line-height: 2;
+    font-weight: 700;
+    box-shadow: 2px 6px 5px lightgray;
+}
+
+#displayTable,
+.leader-board-table .leader-board-table-tr .Email,
+.leader-board-table .leader-board-table-tr .invite,
+.leader-board-table .leader-board-table-tr .Country{
+    font-size: 13px;
+    opacity: 0.6;
+    text-align: left;
+    line-height: 3.2;
+}
+
+.invite{
+    /* border: 1px solid red; */
+    width: 112px;
+    /* margin-right: 1; */
+}
+
+.Email{
+    /* border: 1px solid red; */
+    width: 190px;
+    /* text-align: left; */
+}
+
+.Country{
+    /* border: 1px solid red; */
+    width: 70px;
+    /* margin-left: 20px; */
+}
+
+.leader-board-btn,
+.traffic-btn{
+    font-size: 12px;
+    height: 30px;
+    padding: 4px 5px;
+    border: 1px solid lightgray;
+    background: lightgray;
+    cursor: pointer;
+    opacity: 0.7;
+    border-radius: 3px;
+    font-weight: 600;
+    /* line-height: 3.2; */
+    margin-top: 13px;
+}
+
+.traffic-head{
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+}
+
+.traffic-head h3,
+.leader-board h3{
+    opacity: 0.9;
+}
+
+.span1{
+    font-size: 15.5px;
+    height: 10px;
+    width: 37px;
+    background: rgb(241, 238, 238);
+    border: 1px solid rgb(241, 238, 238);
+    padding: 3px 5px;
+    border-radius: 3px;
+    opacity: 0.8;
+    margin-right: 11px;
+}
+
+.span2{
+    margin-right: 20px;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+
+.praise{
+    /* margin-right: 10px; */
+    height: 25px;
+    width: 120px;
+    background: rgb(246, 228, 138);
+    padding: 2px 10px 7px 10px  ;
+    border: 1px solid rgb(233, 220, 159);
+    font-size: 14px;
+    opacity: 0.7;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.traffic-content{
+    margin-top: 15px;
+}
+
+.fri{
+    display: flex;
+    justify-content: space-between;
+    line-height: 2.1;
+}
+
+.ottia{
+    margin-right: 27px;
+    opacity: 0.7;
+}
+
+.beteck{
+    width: 62px;
+
+}
+
+.eru{
+    width: 25px;
+}
+
+.fufu{
+    width: 13px;
+}
+
+.stew{
+    width: 7px;
+}
+
+.yam{
+    width: 0.1px;
+}
+
+.grumpii{
+    padding-left: 40px;
+    padding-right: 0px;
+    width: 90px;
+
+}
+
+.nji{
+    width: 40px;
+    padding-left: 40px;
+    padding-right: 0px;
+}
+
+.hard{
+    padding-left: 40px;
+    width: 10px;
+}
+
+.easy{
+    padding-left: 40px;
+    width: 5px;
+}
+
+.middle{
+    padding-left: 40px;
+    width: 2px;
+}
+
+.mac{
+    padding-left: 40px;
+    width: 0.1px;
+}
+
+#board-traffic{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+#traffic{
+    margin-right: 50px;
+}
+
+
+#signupLocation-behavior{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mami{
+    width: 25px;
+    height: 25px;
+    border-radius: 1px solid rgb(246, 228, 138);
+    border-radius: 2px;
+    position: absolute;
+    left: 74px;
+    padding-top: 2px;
+}
+
+.kanjo{
+    width: 25px;
+    height: 25px;
+    border-radius: 1px solid rgb(246, 228, 138);
+    border-radius: 2px;
+    position: absolute;
+    left: 74px;
+    padding-top: 2px;
+
+}
+
+.plug{
+    width: 25px;
+    height: 35px;
+    border-radius: 1px solid rgb(246, 228, 138);
+    border-radius: 2px;
+    position: absolute;
+    left: 74px;
+    padding-top: 2px;
+
+}
+
+.money{
+    width: 25px;
+    height: 25px;
+    border-radius: 1px solid rgb(246, 228, 138);
+    border-radius: 2px;
+    position: absolute;
+    left: 74px;
+    padding-top: 2px;
+}
+
+.career{
+    width: 25px;
+    height: 25px;
+    border-radius: 1px solid rgb(246, 228, 138);
+    border-radius: 2px;
+    position: absolute;
+    left: 74px;
+    padding-top: 2px;
+}
+
+.software{
+    padding-top: 2px;
+    width: 25px;
+    height: 25px;
+    border-radius: 1px solid rgb(246, 228, 138);
+    border-radius: 2px;
+    position: absolute;
+    left: 74px;
 }
